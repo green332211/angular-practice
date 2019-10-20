@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app.routing';
+
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
 import { Post2Component } from './post2/post2.component';
@@ -16,7 +18,8 @@ import { Post4Component } from './post4/post4.component';
     Post4Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
