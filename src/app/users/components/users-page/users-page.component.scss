@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 95px 0;
+}
+
+.employee {
+  background-color: rgb(236, 236, 236);
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}

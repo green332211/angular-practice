@@ -1,1 +1,13 @@
-<h1>Users Page !!!!111</h1>
+<div class="container">
+  <div class="features">
+    <app-user-item *ngFor="let item of userList" [icon]="item.icon" [title]="item.title" [text]="item.text"></app-user-item>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="employee">
+    <app-employee-item *ngFor="let item of employeeList" [photo]="item.photo" [name]="item.name" [profession]="item.profession" [description]="item.description"></app-employee-item>
+  </div>
+
+</div>

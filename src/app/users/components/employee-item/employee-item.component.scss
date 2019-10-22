@@ -1,0 +1,33 @@
+:host {
+  width: 25%;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.team__photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.team__name {
+  font-size: 22px;
+  color: #2d3033;
+  margin-bottom: 8px;
+}
+
+.team__prof {
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #e84545;
+  text-transform: uppercase;
+}
+
+.team__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6c7279;
+  margin-bottom: 20px;
+}
