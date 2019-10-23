@@ -5,9 +5,15 @@
 </div>
 
 <div class="container">
-
   <div class="employee">
     <app-employee-item *ngFor="let item of employeeList" [photo]="item.photo" [name]="item.name" [profession]="item.profession" [description]="item.description"></app-employee-item>
   </div>
-
 </div>
+
+<div class="container">
+  <div class="works">
+    <app-works-item *ngFor="let item of worksList" [photo]="item.photo" [title]="item.title" [text]="item.text"></app-works-item>
+  </div>
+</div>
+
+

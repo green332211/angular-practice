@@ -57,16 +57,6 @@ export class UsersPageComponent implements OnInit {
     }
   ];
 
-  // employee = {
-  //   photo: 'team1.jpg',
-  //   name: 'Vasya',
-  //   profession: 'Sucker',
-  //   description: `
-  //     Cras justo odio, dapibus ac fa cilisis in, egestas eget quam. Nullam
-  //     quisrisus eget urna mollis ornare vel eu leo.
-  //   `
-  // };
-
   employeeList = [
     {
       photo: 'team1.jpg',
@@ -104,6 +94,57 @@ export class UsersPageComponent implements OnInit {
         quisrisus eget urna mollis ornare vel eu leo.
       `
     }
+  ];
+
+  worksList = [
+    {
+      photo: 'work1.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work2.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work3.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work4.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work5.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work6.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work7.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
+    {
+      photo: 'work8.jpg',
+      content: '',
+      title: 'Project Name',
+      text: 'User Interface Design',
+    },
   ];
 
   constructor() { }
